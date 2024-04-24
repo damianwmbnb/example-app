@@ -13,7 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Servicios');
-});
+Route::get('/Principal', function () {
+    return view('Principal');
+})->name('Principal');
 
+Route::get('/Servicios', function () {
+    return view('Servicios/Servicios');
+})->name('Servicios');
+
+route::get('/Info-Servicios', function (){
+    return view('Servicios/ClickServicios');
+})->name('ClickServicios');

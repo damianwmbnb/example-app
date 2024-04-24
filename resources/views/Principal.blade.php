@@ -8,8 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    @include('Nav')
-
+    @include('include.Nav')
     <!---VIDEO-->
     <section class="mb-5">
         <iframe width="100%" height="500" aria-controls="false" src="https://www.youtube.com/embed/067to_-OCpQ?si=v1pxzqkumIxGoI9Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; loop" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -70,7 +69,7 @@
             <img src="https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.jpg" class="w-100" alt="...">
           </div>
     </div>
-    @include('Footer')
+    @include('include.Footer')
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" ></script>
 </body>

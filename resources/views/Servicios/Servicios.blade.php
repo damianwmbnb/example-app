@@ -8,6 +8,7 @@
 </head>
 <body>
     @include('include.Nav')
+    @extends('include.Footer')
 
     <div class="row g-0 bg-body-secondary position-relative mt-3">
         <div class="col-md-6 mb-md-0 p-md-4">
@@ -21,7 +22,7 @@
                 quae obcaecati tempora illo illum tempore! Sequi nostrum fugiat
                 commodi! Ea iusto nostrum fuga.
             </p>
-            <a href="#" class="btn btn-primary">Mas Informacion</a>
+            <a href="{{ route('ClickServicios')}}" class="btn btn-primary">Mas Informacion</a>
         </div>
     </div>
 
@@ -89,7 +90,7 @@
         </div>
     </div>
 
-    @include('include.Footer')
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" ></script>
 </body>

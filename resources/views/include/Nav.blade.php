@@ -6,8 +6,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <div class="m-2">
-            <a class="navbar-brand" href="#">
-                <img src="{{ asset('img/Marcacion-Bienestar-al-Aprendiz1.png') }}" alt="Logo" width="50%" height="30%">
+            <a class="navbar-brand" href="{{ route('Principal')}}">
+                <img src="{{ asset('store/Marcacion-Bienestar-al-Aprendiz1.png') }}" alt="Logo" width="50%" height="30%">
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Servicios</a>
+              <a class="nav-link active" aria-current="page" href="{{ route('Servicios')}}">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Apoyos</a>
